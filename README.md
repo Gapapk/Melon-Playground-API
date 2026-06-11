@@ -56,4 +56,16 @@
 
 <hr>
 
+**Ссылка:**
+``https://pg.playmelonpg.com/api/auth/by-email-password``
 
+**Тело:**
+```json
+{
+  "email": "Email",
+  "password": "Пароль"
+}
+```
+*Вход через почту.*
+
+<hr>
