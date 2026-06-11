@@ -12,8 +12,8 @@
 
 <hr>
 
-# 🧠 Вход в аккаунт (Все POST.)
-**Ссылка:**
+# 🧠 Вход в аккаунт
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/auth/by-login-password``
 
 **Тело:**
@@ -56,7 +56,7 @@
 
 <hr>
 
-**Ссылка:**
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/auth/by-email-password``
 
 **Тело:**
@@ -70,7 +70,7 @@
 
 <hr>
 
-**Ссылка:**
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/auth/by-social/web``
 
 **Тело:**
@@ -84,7 +84,7 @@
 
 <hr>
 
-**Ссылка:**
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/auth/by-social/web``
 
 **Тело:**
@@ -98,7 +98,7 @@
 
 <hr>
 
-**Ссылка:**
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/user/webhook-verify-login``
 
 **Тело:**
@@ -125,7 +125,7 @@
 
 <hr>
 
-**Ссылка:**
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/auth/admin/by-login-password``
 
 **Тело:**
@@ -138,8 +138,8 @@
 
 *Вход в аккаунт админа по логину, но у вас скорее всего ничего не получится.*
 
-# 🦾 Информация о аккаунте (Все GET, и без тела.)
-**Ссылка:**
+# 🦾 Информация о аккаунте
+**Ссылка:** (GET)
 ``https://pg.playmelonpg.com/api/user/me``
 
 **Ответ:**
@@ -181,3 +181,55 @@
 
 <hr>
 
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/account-preview/wallet/me``
+
+**Ответ:**
+```json
+{
+  "walletId": "f9e5e093-7595-476c-9902-1d5b1a2bf9d6",
+  "userId": "e086401a-965d-4303-b4c9-4e5c56110383",
+  "coins": 8,
+  "availableWithdrawFiatCoins": 0,
+  "hasActiveOperations": false
+}
+```
+
+*Показывает ваш баланс в мелсах и прочее.*
+
+<hr>
+
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/fiat/order/me``
+
+**Ответ:**
+```json
+{ }
+```
+```json
+[
+  {
+    "createdAt": "2024-01-13T10:32:00Z",
+    "usdAmount": 190,
+    "state": "waitRefundCoins",
+    "orderId": "ORD-1452"
+  }
+]
+```
+
+*Показывает историю и статусы заявок на вывод средств, если нет, то по молчанию пустое.*
+
+<hr>
+
+**Ссылка:** (POST)
+``https://pg.playmelonpg.com/api/fiat/order/create``
+
+**Тело:**
+```json
+{
+  "coinsAmount": 75000
+}
+```
+*Создание заявок на вывод средств. Минум 75000 мелсов, и вряд-ли это получится сделать в России.*
+
+<hr>
