@@ -318,7 +318,7 @@
 **Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/user/set-email``
 
-**Тело:***
+**Тело:**
 ```json
 {
   "email": "user@gmail.com"
