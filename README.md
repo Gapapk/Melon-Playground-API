@@ -84,3 +84,18 @@
 
 <hr>
 
+**Ссылка:***
+``https://pg.playmelonpg.com/api/auth/by-social/web``
+
+**Тело:**
+```json
+{
+  "externalDeviceId": "externalDeviceId",
+  "deviceName": "deviceName" // необязательно
+}
+```
+*Вход через ID устройство. (Анонимно.)*
+
+<hr>
+
+**Ссылка:**
