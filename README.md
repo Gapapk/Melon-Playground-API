@@ -69,3 +69,18 @@
 *Вход через почту.*
 
 <hr>
+
+**Ссылка:**
+``https://pg.playmelonpg.com/api/auth/by-social/web``
+
+**Тело:**
+```json
+{
+  "socialProviderKind": "google" | "apple",
+  "socialToken": "Токен сессии"
+}
+```
+*Вход тоже через гугл или эпл, если надо создать авторизацию через гугл илм эпл, то используйте Google Cloud Console или Apple Developer Account*
+
+<hr>
+
