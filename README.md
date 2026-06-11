@@ -138,4 +138,46 @@
 
 *Вход в аккаунт админа по логину, но у вас скорее всего ничего не получится.*
 
-# 🦾 Информация о аккаунте
+# 🦾 Информация о аккаунте (Все GET, и без тела.)
+**Ссылка:**
+``https://pg.playmelonpg.com/api/user/me``
+
+**Ответ:**
+```json
+{
+  "id": "e086401a-965d-4303-b4c9-4e5c56110383",
+  "login": "123456l",
+  "kind": "verifiedPlayer",
+  "role": "player",
+  "withPassword": true,
+  "device": {
+    "id": "c067bb7b-ee60-40c7-addc-cb727d26858c",
+    "platform": "IPhonePlayer",
+    "externalDeviceId": "8180D8EF-B389-4EF8-AB9E-E1CEE002BF73",
+    "name": "iPad",
+    "systemName": "iPad7,5",
+    "systemVersion": "iPadOS 17.5.1",
+    "appAccountToken": "",
+    "appsFlyerId": "1766619637876-1633812356075774279"
+  },
+  "socials": [],
+  "blocked": false,
+  "deleted": false,
+  "createdAt": 1723877306491,
+  "updatedAt": 1781175532891,
+  "userEmail": {
+    "notActiveEmail": "robtonnn@gmail.com",
+    "consentToReceive": false
+  },
+  "lastActiveAt": 1781176925386,
+  "avatarFileId": "95c3c925-7e29-4d9a-9f72-40285a483326",
+  "referralCode": "XVJR-GLWZ-XMUA",
+  "language": "en",
+  "country": "FR"
+}
+```
+*Информация о аккаунте и телефоне пользователя, и да ваш аккаунт* ***могут забанить или удалить.***
+*Самое интересное что на сервере есть ещё реферальные коды, но их не используют.*
+
+<hr>
+
