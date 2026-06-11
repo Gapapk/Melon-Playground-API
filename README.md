@@ -281,3 +281,37 @@
 *Показывает количество непрочитанных уведомлений*
 
 <hr>
+
+**Ссылка:** (POST)
+``https://pg.playmelonpg.com/api/internal-notice/read``
+
+**Тело:**
+```json
+{
+  "internalNoticeIds": ["id", "id"]
+}
+```
+*Прочивает сообщение по ID.*
+
+<hr>
+
+**Ссылка:** (POST)
+``https://pg.playmelonpg.com/api/internal-notice/read-all``
+
+*Прочитывает все уведомления, и не имеет тела и ответ пустой.*
+
+<hr>
+
+**Ссылка:** (POST)
+``https://pg.playmelonpg.com/api/internal-notice/archive``
+
+**Тело:**
+```json
+{
+  "internalNoticeIds": ["id", "id"]
+}
+```
+
+*Архивирует/Удаляет сообщения, ответ тоже пустой.*
+
+# 🌀 Настройка акаунта
