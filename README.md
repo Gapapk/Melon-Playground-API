@@ -235,3 +235,49 @@
 *Создание заявок на вывод средств. Минум 75000 мелсов, и вряд-ли это получится сделать в России.*
 
 <hr>
+
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/internal-notice/filter?limit={limit}&offset={offset}``
+
+**Ответ:**
+```json
+{
+  "objects": [
+    {
+      "id": "id",
+      "receiverId": "receiverId",
+      "status": "read" | "unread",
+      "createdAt": 44,
+      "updatedAt": 2,
+      "notificationContent": {
+        "body": "body",
+        "meta": {
+          "kind": "content_status" | "store_item_status" | "store_item_status",
+          "contentId": "content,
+          "itemId": "item"
+        }
+      }
+    }
+  ],
+  "filterMeta": {
+    "totalItems": 4,
+    "offset": 2
+  }
+}
+```
+*Показывает ваши увидемление надо указывать лимит и offset.*
+
+<hr>
+
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/internal-notice/count-unread``
+
+**Ответ:**
+```json
+{
+  "unreadCount": 0
+}
+```
+*Показывает количество непрочитанных уведомлений*
+
+<hr>
