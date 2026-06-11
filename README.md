@@ -329,7 +329,7 @@
 
 <hr>
 
-**Ссылка:**
+**Ссылка:** (POST)
 ``https://pg.playmelonpg.com/api/user/confirm-email``
 
 **Тело:**
@@ -339,5 +339,35 @@
 }
 ```
 *Вводите туда свой код и подтверждаете свой email. Код действует плоть до 1 минуты.*
+
+<hr>
+
+**Ссылка:** (POST)
+``https://pg.playmelonpg.com/api/user/reset-password/init``
+
+**Тело:**
+```json
+{
+  "email": "user@gmail.com"
+}
+```
+
+*Отправка на email сброс пароля.*
+
+<hr>
+
+**Ссылка:**
+``https://pg.playmelonpg.com/api/user/reset-password/confirm``
+
+**Тело:**
+```json
+{
+  "email": "user@gmail.com",
+  "proofTokenValue": "123456",
+  "newPlainTextPassword": "Новый пароль."
+}
+```
+
+*Сбрасывает пароль, нужно знать код, email и потом устанавливаете новый пароль.*
 
 <hr>
