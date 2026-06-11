@@ -84,7 +84,7 @@
 
 <hr>
 
-**Ссылка:***
+**Ссылка:**
 ``https://pg.playmelonpg.com/api/auth/by-social/web``
 
 **Тело:**
