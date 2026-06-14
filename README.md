@@ -458,3 +458,56 @@
   "publicComment": " "
 }
 ```
+
+*Показывает последние обновления новостей.*
+
+<hr>
+
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/app-section-status`` 
+``https://pg.playmelonpg.com/api/app-section-status/active/easterEggRadio?AppVersion=Версия игры.``
+
+**Ответ:**
+```json
+{"tabIndex":3}
+```
+
+*Не особо понятный API, а вторая его версия вообще не понятно зачем нужна.*
+
+<hr>
+
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/storage/file/compressed/public/direct-link/Id файла на сервере.``
+
+*Скачивает файлы с сервера к примеру:*
+
+``https://pgstatic.playmelonpg.com/content/compressed-images/95c3c925-7e29-4d9a-9f72-40285a483326_w512.png``
+
+*Он может скачивать авы, скрины и авы контента и текстуры с ивентов, но* ***НЕ*** *может скачивать файлы контента, id можно достать из самих файлов игры в папке* ```Images/Avatars ``` *или с сайта melonsandbox.com.
+Можно также юзать* ```https://pgstatic.playmelonpg.com/content/compressed-images/id файла на сервере.``` *разницы особой нет.*
+
+<hr>
+
+**Ссылка:** (GET)
+``http://pg.playmelonpg.com/api/game-store/sku/all-list``
+
+**Ответ:**
+```json
+[
+  "mels_01",
+  "mels_05",
+  "mels_03",
+  "mels_02",
+  "mels_07",
+  "mels_06",
+  "mels_04"
+]
+```
+
+*Показывает товары.*
+
+<hr>
+
+*Пока это все известные API если у вас есть API или какие-то ошибки в API документации, пишите мне в ЛC:@gap0135*
+
+<img src="Assets/icon.png" alt="Иконка.">
