@@ -508,6 +508,13 @@
 
 <hr>
 
+**Ссылка:** (GET?)
+``https://pg.playmelonpg.com/api/user/get-user-preview-by-ids``
+
+*Пока не понятно что этот API делает.*
+
+<hr>
+
 *Пока это все известные API если у вас есть API или какие-то ошибки в API документации, пишите мне в ЛC:@gap0135*
 
 <img src="Assets/MP.png" alt="Иконка.">
