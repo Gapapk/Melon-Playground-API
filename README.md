@@ -434,3 +434,27 @@
 *Не имеет тела и ответа, просто выходит из аккаунта, правда смысл если можно зайти сразу в другой.*
 
 # 🧱 Другое
+**Ссылка:** (GET)
+``https://pg.playmelonpg.com/api/web-link/actual/actualNews``
+
+**Заголовок:** *(Только для этого запроса.)*
+```json
+{
+  'x-app-version': 'global',
+  'x-platform': 'web'
+}
+```
+
+**Ответ:**
+```json
+{
+  "id": "abb98d35-11d5-460f-9d11-8b991b876eb9",
+  "appVersion": "global",
+  "link": {
+    "ru": "news-09-06-26",
+    "en": "news-09-06-26"
+  },
+  "kind": "actualNews",
+  "publicComment": " "
+}
+```
