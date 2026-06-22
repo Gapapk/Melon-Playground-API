@@ -447,10 +447,6 @@
 
 *Меняет аву на указанный ID, вот все авы с этими ID:*
 
-<img src="https://pgstatic.playmelonpg.com/content/compressed-images/72e68dea-7213-486f-bd87-4238350840d3" alt="Мелон">
-
-**ID:** ``72e68dea-7213-486f-bd87-4238350840d3`` *- Мелон.*
-
 <img src="https://pgstatic.playmelonpg.com/content/compressed-images/95c3c925-7e29-4d9a-9f72-40285a483326_w512.png" alt="Тыква">
 
 **ID:** ``95c3c925-7e29-4d9a-9f72-40285a483326_w512``
