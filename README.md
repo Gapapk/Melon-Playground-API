@@ -433,6 +433,29 @@
 
 *Не имеет тела и ответа, просто выходит из аккаунта, правда смысл если можно зайти сразу в другой.*
 
+<hr>
+
+**Ссылка:** (POST)
+``https://pg.playmelonpg.com/api/user/set-avatar``
+
+**Тело:**
+```json
+{
+  "avatarFileId": "id на сервере"
+}
+```
+
+*Меняет аву на указанный ID, вот все авы с этими ID:*
+
+<img src="https://pgstatic.playmelonpg.com/content/compressed-images/95c3c925-7e29-4d9a-9f72-40285a483326_w512.png" alt="Тыква">
+
+**ID:** ``95c3c925-7e29-4d9a-9f72-40285a483326_w512``
+*- Тыква.*
+
+<img src="https://pgstatic.playmelonpg.com/content/compressed-images/9d89048a-1495-472a-89ed-c1c4fda4c57b_w512.png" alt="Кукуруза">
+
+**ID:** ``9d89048a-1495-472a-89ed-c1c4fda4c57b_w512.png`` *- Кукуруза.*
+
 # 🧱 Другое
 **Ссылка:** (GET)
 ``https://pg.playmelonpg.com/api/web-link/actual/actualNews``
