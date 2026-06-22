@@ -456,6 +456,10 @@
 
 **ID:** ``9d89048a-1495-472a-89ed-c1c4fda4c57b_w512.png`` *- Кукуруза.*
 
+<img src="https://pgstatic.playmelonpg.com/content/compressed-images/b39f758d-6562-45c1-95c1-95d915d4345e_w512.png" alt="Робот">
+
+**ID:** ``b39f758d-6562-45c1-95c1-95d915d4345e_w512.png`` *- Робот.(Премиум.)*
+
 # 🧱 Другое
 **Ссылка:** (GET)
 ``https://pg.playmelonpg.com/api/web-link/actual/actualNews``
